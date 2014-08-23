@@ -26,7 +26,7 @@ Just create a svg element with the tag name you want.
        
 #### $().element(tagName,namespace) ####
 
-Create an element with namespace with tag name and the namespace.
+Create an element with a tag name and its namespace.
 
        $().element("circle","http://www.w3.org/2000/svg").attr({cx:10,cy:10,r=10}).appendTo("svg");
        
